@@ -3,5 +3,7 @@ public class Main {
     {
         System.out.println("Welcome to Project Chooser, a program that tells you what your next project is.");
 
+        Reader r = new Reader();
+        r.readFile();
     }
 }
